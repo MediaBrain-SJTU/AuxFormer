@@ -9,7 +9,7 @@ Chenxin Xu, Robby T. Tan, Yuhong Tan, Siheng Chen, Yuguang Wang, Xinchao Wang, Y
 **Abstract**: Exploring spatial-temporal dependencies from observed motions is one of the core challenges of human motion pre- diction. Previous methods mainly focus on dedicated net- work structures to model the spatial and temporal dependen- cies. This paper considers a new direction by introducing a model learning framework with auxiliary tasks. In our auxiliary tasks, partial body joints’ coordinates are corrupted by either masking or adding noise and the goal is to recover corrupted coordinates depending on the rest coor- dinates. To work with auxiliary tasks, we propose a novel auxiliary-adapted transformer, which can handle incomplete, corrupted motion data and achieve coordinate recovery via capturing spatial-temporal dependencies. Through auxil- iary tasks, the auxiliary-adapted transformer is promoted to capture more comprehensive spatial-temporal dependencies among body joints’ coordinates, leading to better feature learning. Extensive experimental results have shown that our method outperforms state-of-the-art methods by remarkable margins of 7.2%, 3.7%, and 9.4% in terms of 3D mean per joint position error (MPJPE) on the Human3.6M, CMU Mocap, and 3DPW datasets, respectively. We also demonstrate that our method is more robust under data missing cases and noisy data cases.
 
 <div align="center">
-	<img src="img/auxformer.png" alt="Editor" width="500">
+	<img src="img/auxformer.png" alt="Editor" width="900">
 </div>
 
 ## Recommand Dependencies
