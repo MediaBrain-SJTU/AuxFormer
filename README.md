@@ -28,6 +28,7 @@ Download CMUMocap dataset from its [website](http://mocap.cs.cmu.edu) and put th
 Download 3DPW dataset from its [website](https://virtualhumans.mpi-inf.mpg.de/3DPW) and put the files into "data" with the dataset folder named "3DPW".
 
 After the prepartion work, the data folder should have the following structure:
+'''
 /data
 ├── h3.6m
     ├── dataset
@@ -39,7 +40,7 @@ After the prepartion work, the data folder should have the following structure:
     ├── train
 ├── 3DPW
     ├── sequenceFiles                       
-
+'''
 
 ## Train
 ### Human3.6M
