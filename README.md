@@ -86,34 +86,34 @@ The trained model will be saved in ckpt/ .
 ### Human3.6M
 Take our trained model as an example, to evaluate a short-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_h36m.py --task short -- pretrain_h36m_ckpt
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_h36m.py --task short --model_save_name pretrain_h36m_ckpt
 ```
 
 To evaluate a long-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_h36m.py --task long -- pretrain_h36m_ckpt_long
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_h36m.py --task long --model_save_name pretrain_h36m_ckpt_long
 ```
 
 ### CMUMocap
 Take our trained model as an example, to evaluate a short-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_cmu.py --task short -- pretrain_cmu_ckpt
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_cmu.py --task short --model_save_name pretrain_cmu_ckpt
 ```
 
 To evaluate a long-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_cmu.py --task long -- pretrain_cmu_ckpt_long
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_cmu.py --task long --model_save_name pretrain_cmu_ckpt_long
 ```
 
 ### 3DPW
 Take our trained model as an example, to evaluate a short-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_3dpw.py --task short -- pretrain_3dpw_ckpt
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_3dpw.py --task short --model_save_name pretrain_3dpw_ckpt
 ```
 
 To evaluate a long-term motion prediction model, run
 ```
-CUDA_VISIBLE_DEVICES={GPU_ID} python test_3dpw.py --task long -- pretrain_3dpw_ckpt_long
+CUDA_VISIBLE_DEVICES={GPU_ID} python test_3dpw.py --task long --model_save_name pretrain_3dpw_ckpt_long
 ```
 
 
