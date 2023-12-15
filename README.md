@@ -1,8 +1,8 @@
 # AuxFormer
 
 Official implementation of our paper:  
-**EqMotion: Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction**  
-Chenxin Xu, Robby T. Tan, Yuhong Tan, Siheng Chen, Yuguang Wang, Xinchao Wang, Yanfeng Wang  
+**Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction**  
+Chenxin Xu, Robby T. Tan, Yuhong Tan, Siheng Chen, Xinchao Wang, Yanfeng Wang  
 **ICCV 2023** [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Auxiliary_Tasks_Benefit_3D_Skeleton-based_Human_Motion_Prediction_ICCV_2023_paper.pdf)
 
 
